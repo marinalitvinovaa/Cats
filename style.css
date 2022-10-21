@@ -1,0 +1,182 @@
+@import url(https://fonts.googleapis.com/css?family=Inter:100,200,300,regular,500,600,700,800,900);
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::after, *::before {
+  box-sizing: inherit;
+}
+*{
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+ul[class],
+ol[class] {
+  padding: 0;
+}
+
+body, h1, h2, h3, h4, h5, h6, p, ul[class],
+ol[class], li, figure, figcaption, blockquote, dl, dd {
+  margin: 0;
+}
+:focus,:active{outline: none;}
+a:focus,a:active{outline: none;}
+
+ul[class] {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+}
+
+input, button, textarea, select P{
+  font: inherit;
+}
+button, a{cursor: pointer;}
+
+a[class] {
+  text-decoration: none;
+}
+a, a:visited{text-decoration: none;}
+a:hover{text-decoration: none;}
+ul li{list-style: none;}
+
+body {
+  min-height: 100vh;
+  background-color: #FBF7F4;
+}
+
+.main {
+  max-width: 1200px;
+  margin: 0 auto;
+  display: flex;
+  gap: 20px;
+  align-items: flex-start;
+  flex-grow: 1;
+  flex-shrink: 1;
+}
+
+
+.menu {
+  max-width: 285px;
+  background-color: #0F1322;
+  border-radius: 20px;
+  padding: 50px 36px 167px 25px;
+  margin-top: 30px;
+}
+
+h1 {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin-bottom: 40px;
+}
+
+.list {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+
+.list__item {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+}
+
+.list__item-end {
+  align-items: flex-start;
+}
+
+.list__icon {
+  max-width: 18px;
+  min-height: 18px;
+}
+
+.list__link {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 16px;
+line-height: 20px;
+color: #dedede;
+}
+.cards {
+  flex: 1 1 895px;
+  flex-wrap: wrap;
+  display: flex;
+  column-gap: 20px;
+  margin-top: 40px;
+  row-gap: 20px;
+}
+
+.card {
+  background: #FFFFFF;
+  box-shadow: 2px 15px 20px rgba(34, 21, 15, 0.03);
+  border-radius: 10px;
+  max-width: 285px;
+  position: relative;
+  padding-bottom: 30px;
+  flex: 1 1 285px;
+}
+
+.like {
+  max-width: 24px;
+  min-height: 24px;
+  position: absolute;
+  top: 20px;
+  left: 20px;
+}
+
+.card-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.photo {
+  margin-top: -10px;
+}
+
+.name {
+  font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 24px;
+line-height: 29px;
+color: #0F1322;
+}
+
+.rate {
+  display: flex;
+  gap: 8px;
+}
+
+.rate p {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 18px;
+  color: #A0A0A0;
+}
+
+.stars {
+  display: flex;
+  gap: 5px;
+}
+
+.stars img {
+  max-width: 12px;
+}
